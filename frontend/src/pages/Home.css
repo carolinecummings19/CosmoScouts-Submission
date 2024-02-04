@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  /*background: linear-gradient(to bottom, #1a1a2e, #273049);*/
+  background: linear-gradient(180deg, #090A0E 2.99%, #262746 35.33%, #090A0E 67.66%, #262746 100%);
+  height: 250vh;
+  color: white;
+}
+.home-container {
+  padding: 20px;
+  }
+  
+  .home-title {
+    color:aliceblue;
+    font-size: 40px;
+    text-align: left;
+    font-weight: bolder;
+    font-family:'Bungee Hairline', cursive;
+  }
+
+  .highlight {
+    color: #4ecdc4; /* lighter shade of dark blue grey */
+    font-size: 120px;
+    text-align: left;
+    font-weight: bolder;
+    font-family:'Bungee Hairline', cursive;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .message {
+    color:aliceblue;
+    font-size: 24px;
+    text-align: left;
+    font-weight: bolder;
+    font-family:'Bungee Hairline', cursive;
+  }
+  .image-container {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .astronauts {
+    width: 100%; /* Make the image take the full width of its container */
+    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+    height: auto; /* Maintain the image's aspect ratio */
+    object-fit: cover;
+  }

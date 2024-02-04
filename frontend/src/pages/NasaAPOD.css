@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+
+.title {
+    color: aliceblue;
+    font-size: 40px;
+    font-family:'Bungee Hairline', cursive;
+    font-weight: bolder;
+    margin-bottom: 30px;
+  }
+
+.header2 {
+    color: aliceblue;
+    font-size: 28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.data {
+    color: aliceblue;
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nasa-image {
+    text-align: left;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.explanation {
+    color: aliceblue;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', sans-serif;
+}
+
+.rocket {
+    width: 100pt; 
+    height: 200px;
+    object-fit: cover;
+    align-self: left;
+  }

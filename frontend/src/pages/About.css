@@ -1,0 +1,43 @@
+/* About.css */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+
+.about-container {
+  padding: 20px;
+  background-color: #f0f0f012;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align:left;
+ }
+ 
+ 
+ .about-title {
+  color: #ffffff;
+  font-size: 40px;
+  font-family:'Bungee Hairline', cursive;
+  font-weight: bolder;
+  margin-bottom: 20px;
+ }
+ 
+ 
+ .creator-info {
+  margin-bottom: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+ }
+ 
+ 
+ .creator-info h2 {
+  color: #0066cc;
+  font-size: 28px;
+  font-family:'Bungee Hairline', cursive;
+  font-weight: bolder;
+ }
+
+ .cool {
+  width: 100pt; 
+  height: 200px;
+  object-fit: cover;
+  align-self: left;
+}
+ 

@@ -1,0 +1,45 @@
+.quiz-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .solar-system-title {
+    color: aliceblue;
+    font-size: 40px;
+    font-family:'Bungee Hairline', cursive;
+    font-weight: bolder;
+
+  }
+
+  .info {
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .quiz-title {
+    color: aliceblue;
+    font-size: 40px;
+    font-family:'Bungee Hairline', cursive;
+    font-weight: bolder;
+
+  }
+  .question {
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .saturn {
+    width: 100pt; 
+    height: 200px;
+    object-fit: cover;
+    align-self: left;
+  }

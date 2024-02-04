@@ -1,0 +1,70 @@
+/* ConstellationFinder.css */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+
+body {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.finder {
+  font-family:'Bungee Hairline', cursive;
+  font-weight: bolder;
+  color: white;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+#result {
+  font-weight: bold;
+  color: green;
+}
+
+.constellation-image {
+  width: 100pt; 
+  height: 200px;
+  object-fit: cover;
+  align-self: left;
+}
+
+/* Customize styles for the game's title */
+h1 {
+  color: #0073e6; /* Change the title text color */
+}
+
+/* Customize styles for buttons */
+button {
+  background-color: #0073e6; /* Change button background color */
+  color: white; /* Change button text color */
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0053a0; /* Change button background color on hover */
+}
+
+/* Customize styles for the answer buttons */
+.answer-button {
+  background-color: #4caf50; /* Green for "Found" */
+}
+
+.answer-button.no {
+  background-color: #f44336; /* Red for "Not Found" */
+}
+
+/* Customize styles for the game container */
+#game-container {
+  display: none;
+  margin-top: 20px;
+}
+
+/* Customize styles for the end game message */
+#end-game-message {
+  font-size: 18px;
+  margin-top: 20px;
+}
